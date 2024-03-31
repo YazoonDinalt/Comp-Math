@@ -57,31 +57,31 @@ CPU: `Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz`
 - $BLOCK\_SIZE$ - размер блока
 - $iter$ - количество итераций внешнего цикла
 - $ceil(x)$ - округлить $x$ в большую сторону 
-- $BLOCK\_NUM$ = $ceil(N+2 / BLOCK\_SIZE)$ - необходимое кол-во блоков
+- $`BLOCK\_NUM$ = $ceil(N+2 / BLOCK\_SIZE)`$ - необходимое кол-во блоков
 
 
 \
 \
-$t_0 \approx C*BLOCK\_SIZE^2,\ C_1 \in R$
+$`1t_0 \approx C*BLOCK\_SIZE^2,\ C_1 \in R1`$
 
-$t_1 \approx 
+$`t_1 \approx 
 iter*( 
     t_0*BLOCK\_NUM^2 + C_2*BLOCK\_NUM),
-    \ c \in R $
+    \ c \in R `$
 
-$t_n \approx 
+$`t_n \approx 
 iter*( 
     \displaystyle\sum_{i=1}^{BLOCK\_NUM-1}
     t_0*ceil(i/n) +
     \displaystyle\sum_{i=1}^{BLOCK\_NUM}
     t_0*ceil(i/n)
-    + C_2*BLOCK\_NUM)$ 
+    + C_2*BLOCK\_NUM)`$ 
     
-$ = iter*(  
+$` = iter*(  
     2*t_0*\displaystyle\sum_{i=1}^{BLOCK\_NUM-1}
     ceil(i/n) +  
     t_0*ceil(BLOCK\_NUM/n) + C_2*BLOCK\_NUM),
-    \ C_2 \in R$
+    \ C_2 \in R`$
 
 
 Ожидается: 
