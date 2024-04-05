@@ -6,7 +6,7 @@
 
 #define Block_sz 64
 #define EPS 0.1
-#define N 1000
+#define N 300
 static int min(int a, int b) { return a < b ? a : b; }
 
 double **create_array()
@@ -21,7 +21,6 @@ void free_array(double **arr)
 {
     for (int i = 0; i < N + 2; i++)
     {
-
         free(arr[i]);
     }
     return free(arr);
