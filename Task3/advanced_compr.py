@@ -3,6 +3,16 @@ import scipy
 from repo import read_image
 from repo import save_matr
 
+
+"""
+Advanced method based on
+
+https://arxiv.org/abs/0909.4061
+
+https://github.com/gwgundersen/randomized-svd/blob/master/rsvd.py
+
+"""
+
 def singular_advanced(path_in, path_out, N):
 
 
