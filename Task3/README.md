@@ -44,12 +44,44 @@
 
 | x2  | x3  |  x5  | x10  | 
 |-------|--------|----------|----------|
-| ![1](comp_image/simple/Lake_x2.bmp) | ![2](comp_image/simple/Lake_x3.bmp) | ![3](comp_image/simple/Lake_x3.bmp)| ![4](comp_image/simple/Lake_x3.bmp) | 
+| ![1](comp_image/simple/Lake_x2.bmp) | ![2](comp_image/simple/Lake_x3.bmp) | ![3](comp_image/simple/Lake_x5.bmp)| ![4](comp_image/simple/Lake_x5.bmp) | 
 
 # Сжатие с помощью numpy
 
 
+Сожмем Lake.bmp
+
+| x2  | x3  |  x5  | x10  | 
+|-------|--------|----------|----------|
+| ![1](comp_image/numpy/Lake_x2.bmp) | ![2](comp_image/numpy/Lake_x3.bmp) | ![3](comp_image/numpy/Lake_x5.bmp)| ![4](comp_image/numpy/Lake_x10.bmp) |
+
+Теперь круги Венгера 
+
+| x2  | x3  |  x5  | x10  | 
+|-------|--------|----------|----------|
+| ![1](comp_image/numpy/wenger_x2.bmp) | ![2](comp_image/numpy/wenger_x3.bmp) | ![3](comp_image/numpy/wenger_x5.bmp)| ![4](comp_image/numpy/wenger_x10.bmp) |
+
+И напоследок
+
+| x2  | x3  |  x5  | x10  | 
+|-------|--------|----------|----------|
+| ![1](comp_image/numpy/Lenna_x2.bmp) | ![2](comp_image/numpy/Lenna_x3.bmp) | ![3](comp_image/numpy/Lenna_x5.bmp)| ![4](comp_image/numpy/Lenna_x10.bmp) |
 
 # Сжатие с помощью advanced алгоритма 
+
+
+Повторим тоже для  advanced алгоритма 
+
+| x2  | x3  |  x5  | x10  | 
+|-------|--------|----------|----------|
+| ![1](comp_image/advanced/Lake_x2.bmp) | ![2](comp_image/advanced/Lake_x3.bmp) | ![3](comp_image/advanced/Lake_x5.bmp)| ![4](comp_image/advanced/Lake_x10.bmp) |
+
+| x2  | x3  |  x5  | x10  | 
+|-------|--------|----------|----------|
+| ![1](comp_image/advanced/wenger_x2.bmp) | ![2](comp_image/advanced/wenger_x3.bmp) | ![3](comp_image/advanced/wenger_x5.bmp)| ![4](comp_image/advanced/wenger_x10.bmp) |
+
+| x2  | x3  |  x5  | x10  | 
+|-------|--------|----------|----------|
+| ![1](comp_image/advanced/Lenna_x2.bmp) | ![2](comp_image/advanced/Lenna_x3.bmp) | ![3](comp_image/advanced/Lenna_x5.bmp)| ![4](comp_image/advanced/Lenna_x10.bmp) |
 
 # Вывод
