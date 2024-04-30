@@ -14,11 +14,11 @@ def main():
     match namespace.mode: 
         case "compress"   : 
             match namespace.method:
-                case "numpy"    : singular_numpy("image/Lake.bmp", "helpi", 10)
-                case "simple"   : singular_simple("image/Lake.bmp", "helpi", 3)
-                case "advanced" : singular_advanced("image/Lake.bmp", "helpi", 5) 
+                case "numpy"    : singular_numpy(namespace.in_path, namespace.out_file, namespace.compression)
+                case "simple"   : singular_simple(namespace.in_path, namespace.out_file, namespace.compression)
+                case "advanced" : singular_advanced(namespace.in_path, namespace.out_file, namespace.compression) 
         case "decompress" :
-            decompr("helpi", "simple/Lake_x3.bmp")
+            decompr(namespace.in_path, namespace.out_file)
             
 
 if __name__ == '__main__':

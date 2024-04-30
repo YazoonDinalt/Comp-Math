@@ -42,9 +42,13 @@
 
 # Сжатие на простейшем алгоритме 
 
+Сжатие на простом алгоритме будет производиться только для одной картинки, потому что сжатие бОльших по размеру картинок занимает непростительно много времени. (я не смог дождаться кругов Венгера на x2, потому что это длилось более часа)
+
+
 | x2  | x3  |  x5  | x10  | 
 |-------|--------|----------|----------|
-| ![1](comp_image/simple/Lake_x2.bmp) | ![2](comp_image/simple/Lake_x3.bmp) | ![3](comp_image/simple/Lake_x5.bmp)| ![4](comp_image/simple/Lake_x5.bmp) | 
+| ![1](comp_image/simple/Lake_x2.bmp) | ![2](comp_image/simple/Lake_x3.bmp) | ![3](comp_image/simple/Lake_x5.bmp)| ![4](comp_image/simple/Lake_x10.bmp) | 
+
 
 # Сжатие с помощью numpy
 
@@ -85,3 +89,7 @@
 | ![1](comp_image/advanced/Lenna_x2.bmp) | ![2](comp_image/advanced/Lenna_x3.bmp) | ![3](comp_image/advanced/Lenna_x5.bmp)| ![4](comp_image/advanced/Lenna_x10.bmp) |
 
 # Вывод
+
+- Простейших алгоритм занимает невероятно много времени и его использования для картинок большого размера - дурная затея 
+- По сравнения с numpy и advanced, простой алгоритм потерял очень много цветов 
+- Разница между numpy и advanced реализацией не такая значительная и в по времени интуитивно разница не слишком большая 
